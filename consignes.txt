@@ -1,0 +1,125 @@
+1- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_portfolio_gallery_filter
+2- add shorttitle (Browser TAB : NOM FCT and UTF8
+<meta charset="UTF-8"> 
+3- update longTitle h1
+4-find an replace 
+nature => bases
+cars => word
+people => autre
+5- col bases add contents
+souris
+clavier
+windows
+6- Dossier images : souris clavier windows sur pixabay (!Libre de droit)
+600*400
+souris.jpg
+Image by <a href="https://pixabay.com/users/696875-696875/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=980029">Dry Heart Studio</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=980029">Pixabay</a>
+keyboard.png
+Image by <a href="https://pixabay.com/users/nanto-721344/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=790203">Νικόλαος Αντωνόπουλος</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=790203">Pixabay</a>
+
+
+
+
+
+
+7- simplifier style img width 100% 
+          /* Style des images */ 
+            .main .row .content img {
+                width : 100%;
+            } 
+
+8- Word en ligne
+Vidéos créées par Monsieur Jacques DEVOS, formateur à FOBAGRA asbl
+Obtenir Word en ligne 
+Créer un compte Microsoft avec Gmail
+https://youtu.be/8Ds4JYlPugE
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Ds4JYlPugE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Ouvrir un document dans Word en ligne
+https://youtu.be/CuILNtV988A
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CuILNtV988A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Comment mettre un texte en forme
+https://youtu.be/RkTjU-ouRCE
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RkTjU-ouRCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Chaine Youtube de Fobagra :
+https://www.youtube.com/channel/UC36Ouyp9yTpQVyC0N2BJwTw/about
+
+
+9- autre
+laptop-2589693_640.jpg
+Image by <a href="https://pixabay.com/users/stocksnap-894430/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2589693">StockSnap</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2589693">Pixabay</a>
+
+
+
+
+
+
+10- HTML pages
+lien sur chaque img pour aller new  page même design avec faux texte ou video ou pdf à télégarger...
+
+11 - CSS perso
+font-family : 
+https://www.w3schools.com/howto/howto_google_fonts.asp
+https://www.w3schools.com/Css/css_font_pairings.asp
+background color
+border-radius
+btn bg color et hover
+opacity img hover
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Crédits images
+
+house-2690425_640.png
+Image by <a href="https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2690425">mohamed Hassan</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2690425">Pixabay</a>
+
+programmer-1653351_640.png
+Image by <a href="https://pixabay.com/users/200degrees-2051452/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1653351">200 Degrees</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1653351">Pixabay</a>
+
+programmer-4431280_640.png
+Image by <a href="https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4431280">mohamed Hassan</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4431280">Pixabay</a>
+
+code-1076533_640.jpg
+Image by <a href="https://pixabay.com/users/jamesmarkosborne-1640589/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1076533">James Osborne</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1076533">Pixabay</a>

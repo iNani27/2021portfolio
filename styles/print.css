@@ -1,0 +1,70 @@
+
+/* Styles pour impression 211029 */
+@media print {
+    body{
+        color: darkgray;
+        width: 99%; 
+        font-size: 16px;
+        font-family:  Arial, Helvetica, sans-serif;
+    }  
+    #myBtnContainer{
+        display : none;
+    }
+
+    aside#wysiwyg > h1{
+        font-size: 27px;
+    }
+    section{
+        width: 99%;
+        margin-top: 25px;
+        padding-bottom: 25px;
+    }
+    article{
+        width: 96%; 
+        padding: 0px 0px 0px 0px; 
+        margin : 25px auto;
+        border-top: 0px solid transparent; 
+        border-right: 0px solid transparent; 
+        border-bottom: 0px solid transparent;                 
+        border-left: 0px solid transparent;  
+        border-radius : 0 0 0px 0;
+        box-shadow: 0px 0px 0px transparent;
+    }
+    div{
+        width: 99%;
+        border: 0px solid transparent; 
+        clear : both;
+        font-size: 16px;
+        font-family:  Arial, Helvetica, sans-serif;
+    }
+
+    aside{
+        width: 99%;
+        border: 0px solid transparent; 
+        clear : both;
+    }
+
+    table, tr, th, td{
+        border: 1px solid black;
+    }
+    th, td{
+        padding : 5px;
+    }
+
+    body >  header > nav a:not(.active) {
+        display: none;
+    }
+
+    .printSautPage{
+        page-break-before: always;
+    }
+    .print{
+        display: none;
+    }
+    
+    #styledor{
+        display: none;
+    }
+}
+
+

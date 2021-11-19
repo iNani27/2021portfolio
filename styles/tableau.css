@@ -1,0 +1,50 @@
+/*
+Styles de la page propriétés CSS avec tableau
+*/
+/* 
+    Created on : 30-oct.-2021, 0:38:45
+    Updated on : 19-nov.-2021
+    Author     : métier
+*/
+
+table{
+    width : 100%;
+    border-collapse: collapse;
+}
+th, td {
+    width: 32%;   
+    border: 1px #a8a8eb solid;
+    padding:0.5em;
+}
+th {
+    background-color: #C6F0FF;
+}
+tr:nth-child(even){background-color: #d5ffc7;}
+
+tr:hover {background-color: #9fff80;}
+
+
+
+article > h2, article > h3, article > h4{
+    text-align: center;
+}
+article {
+    background-color:#E2F6FD;
+    box-shadow: 7px 7px 7px teal; /*(horizontale, verticale, fondu, couleur) */
+    padding:1em;
+}
+
+h2{
+    color : #a8a8eb;
+    font-size: 1.7em;   
+}
+h3{
+    color : #FFB64C;
+    font-size: 1.5em;    
+    padding-top: 1em;
+}
+h4{
+    color : #FA899B;
+    font-size: 1.3em;
+    margin: 0.7em;
+}

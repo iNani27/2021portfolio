@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I.NANI - Formation web</title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Megrim|Noto+Sans">
+        <link href="styles/portfolio.css" rel="stylesheet" type="text/css"/>
+        <link href="styles/tableau.css" rel="stylesheet" type="text/css"/>
+        <link href="styles/footer.css" rel="stylesheet" type="text/css"/>
+        <link href="styles/print.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <!-- MAIN (Center website) -->
+        <div class="main">
+
+            <h1>Initiation au code</h1>
+            <hr>
+
+            <h2>CSS</h2>
+
+            <div id="myBtnContainer">
+                <button class="btn" onclick="location.href = 'index.html'"> Accueil <img src="images/house-2690425_640.png" alt="Retour à l'accueil" width='25'></button>
+
+            </div>
+
+            <!-- contenu de la page -->
+
+
+
+            <article>
+                <h2>Propriétés CSS - Style</h2>
+                <h3>Propriétés de mise en forme du texte</h3>
+                <table>
+                    <tr>
+                        <th>Propriété</th>
+                        <th>Valeurs (exemples) </th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>font-family </td>
+                        <td>police1, police2, police3, serif, sans-serif, monospace</td>
+                        <td>Nom de police </td>
+                    </tr>
+                    <tr>
+                        <td>font-size </td>
+                        <td>1.3em, 16px, 120%... </td>
+                        <td> Taille du texte </td>
+                    </tr>
+                    <tr>
+                        <td>font-weight</td>
+                        <td>bold</td>
+                        <td>Gras</td>
+                    </tr>
+                    <tr>
+                        <td>font-style</td>
+                        <td>italic</td>
+                        <td>Italique</td>
+                    </tr>
+                    <tr>
+                        <td>font</td>
+                        <td>-</td>
+                        <td>Super propriété de police. Combine : font-weight, font-style, font-size, font-variant, font-family. </td>
+                    </tr>
+                    <tr>
+                        <td>text-align </td>
+                        <td>left, center, right, justify </td>
+                        <td>Alignement horizontal</td>
+                    </tr>
+                </table>   
+                <h3>Propriétés de couleur </h3>
+                <table>
+                    <tr>
+                        <th>Propriété</th>
+                        <th>Valeurs (exemples) </th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>color</td>
+                        <td><i>nom</i>, rgb(rouge, vert, bleu), rgba(rouge, vert, bleu, transparence), #CF1A20... </td>
+                        <td>Couleur du texte </td>
+                    </tr>
+                </table>
+
+
+                <h3>Propriétés de fond</h3>
+                <table>
+                    <tr>
+                        <th>Propriété</th>
+                        <th>Valeurs (exemples)</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>background-color</td>
+                        <td><i>Identique à color</i></td>
+                        <td>Couleur de fond</td>
+                    </tr>
+                    <tr>
+                        <td>background-image</td>
+                        <td>url('image.png') </td>
+                        <td>Image de fond </td>
+                    </tr>
+                    <tr>
+                        <td>background-repeat</td>
+                        <td>repeat-x, repeat-y, no-repeat, repeat </td>
+                        <td>Répétition du fond </td>
+                    </tr>
+                    <tr>
+                        <td>background-position</td>
+                        <td>(x y), top, center, bottom, left, right </td>
+                        <td>Position du fond</td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td><a href="https://www.w3schools.com/css/css3_backgrounds.asp" target="_blank">background</a></td>
+                        <td>-</td>
+                        <td>Super propriété du fond. Combine : 
+                            background-image, background-repeat,  background-position </td>
+                    </tr>
+                    <tr>
+                        <td>opacity </td>
+                        <td>0.5 </td>
+                        <td>Transparence </td>
+                    </tr>
+                </table>    
+
+                <h3>Propriétés des listes</h3>
+                <table>
+                    <tr>
+                        <th>Propriété</th>
+                        <th>Valeurs (exemples) </th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>list-style-type </td>
+                        <td>disc, circle, square, decimal, lower-roman, upper-roman, lower-alpha, upper-alpha, none </td>
+                        <td>Type de liste </td>
+                    </tr>
+                    <tr>
+                        <td>list-style-position</td>
+                        <td>inside, outside </td>
+                        <td>Position en retrait </td>
+                    </tr>
+                    <tr>
+                        <td>list-style-image </td>
+                        <td>url('puce.png') </td>
+                        <td>Puce personnalisée </td>
+                    </tr>
+                    <tr>
+                        <td>list-style </td>
+                        <td>-</td>
+                        <td>Super-propriété de liste. Combine list-style-type, list-style-position, list-style-image. </td>
+                    </tr>
+                </table>
+
+                <h3>Propriétés des tableaux </h3>
+                <table>
+                    <tr>
+                        <th>Propriété</th>
+                        <th>Valeurs (exemples) </th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>border-collapse</td>
+                        <td>collapse, separate </td>
+                        <td>Fusion des bordures </td>
+                    </tr>
+                </table>
+
+                <h3>Propriétés des boîtes </h3>
+                <table>
+                    <tr>
+                        <th>Propriété</th>
+                        <th>Valeurs (exemples) </th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>width</td>
+                        <td>150px, 80%... </td>
+                        <td>Largeur</td>
+                    </tr>
+                    <tr>
+                        <td>height </td>
+                        <td>150px, 80%... </td>
+                        <td>Hauteur</td>
+                    </tr>
+                    <tr>
+                        <td>min-width</td>
+                        <td>150px, 80%... </td>
+                        <td>Largeur minimale </td>
+                    </tr>
+                    <tr>
+                        <td>max-width</td>
+                        <td>150px, 80%... </td>
+                        <td>Largeur maximale </td>
+                    </tr>
+                    <tr>
+                        <td>min-height</td>
+                        <td>150px, 80%... </td>
+                        <td>Hauteur minimale </td>
+                    </tr>
+                    <tr>
+                        <td>max-height</td>
+                        <td>150px, 80%... </td>
+                        <td>Hauteur maximale </td>
+                    </tr>
+                    <tr>
+                        <td>margin-top</td>
+                        <td>23px </td>
+                        <td>Marge en haut </td>
+                    </tr>
+                    <tr>
+                        <td>margin-left</td>
+                        <td>23px </td>
+                        <td>Marge à gauche </td>
+                    </tr>
+                    <tr>
+                        <td>margin-right</td>
+                        <td>23px </td>
+                        <td>Marge à droite </td>
+                    </tr>
+                    <tr>
+                        <td>margin-bottom</td>
+                        <td>23px </td>
+                        <td>Marge en bas </td>
+                    </tr>
+                    <tr>
+                        <td>margin</td>
+                        <td>23px 5px 23px 5px 
+                            (haut, droite, bas, gauche) </td>
+                        <td>
+                            Super-propriété de marge. 
+                            Combine : margin-top, margin-right, margin-bottom, margin-left. 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>padding-left</td>
+                        <td>23px </td>
+                        <td>Marge intérieure à gauche </td>
+                    </tr>
+                    <tr>
+                        <td>padding-right </td>
+                        <td>23px </td>
+                        <td>Marge intérieure à droite </td>
+                    </tr>
+                    <tr>
+                        <td>padding-bottom</td>
+                        <td>23px </td>
+                        <td>Marge intérieure en bas </td>
+                    </tr>
+                    <tr>
+                        <td>padding-top </td>
+                        <td>23px </td>
+                        <td>Marge intérieure en haut </td>
+                    </tr>
+                    <tr>
+                        <td>padding</td>
+                        <td>23px 5px 23px 5px 
+                            (haut, droite, bas, gauche) </td>
+                        <td>Super-propriété de marge intérieure. 
+                            Combine : padding-top, padding-right, padding-bottom, padding-left. </td>
+                    </tr>
+                    <tr>
+                        <td>border-width</td>
+                        <td>3px </td>
+                        <td>Épaisseur de bordure </td>
+                    </tr>
+                    <tr>
+                        <td>border-color </td>
+                        <td><i>nom</i>, rgb(rouge, vert, bleu), rgba(rouge, vert, bleu, transparence), #CF1A20... </td>
+                        <td>Couleur de bordure </td>
+                    </tr>
+                    <tr>
+                        <td>border-style</td>
+                        <td>solid, dotted, dashed, double, groove, ridge, inset, outset </td>
+                        <td>Type de bordure </td>
+                    </tr>
+                    <tr>
+                        <td>border</td>
+                        <td>3px solid black </td>
+                        <td>Super-propriété de bordure. Combine border-width, border-color, border-style. 
+                            Existe aussi en version 
+                            border-top, border-right, border-bottom, border-left. </td>
+                    </tr>
+                    <tr>
+                        <td>border-radius </td>
+                        <td>5px </td>
+                        <td>Bordure arrondie </td>
+                    </tr>
+                    <tr>
+                        <td>box-shadow </td>
+                        <td>6px 6px 0px black 
+                            (horizontale, verticale, fondu, couleur) </td>
+                        <td>Ombre de boîte</td>
+                    </tr>
+                </table>
+
+                <h3>Propriétés de positionnement et d'affichage</h3>
+                <table>
+                    <tr>
+                        <th>Propriété</th>
+                        <th>Valeurs (exemples) </th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>display</td>
+                        <td>block, inline, inline-block,  none... </td>
+                        <td>Type d'élément (block, inline, inline-block, none…) </td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.w3schools.com/csS/css_overflow.asp" target="_blank">overflow</a></td>
+                        <td>auto, scroll, visible, hidden </td>
+                        <td>Comportement en cas de dépassement </td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.w3schools.com/CSSref/pr_class_float.asp" target="_blank">float</a></td>
+                        <td>left, right, none </td>
+                        <td>Flottant : rend l'élément flottant, il sort du flux.</td>
+                    </tr>
+                    <tr>
+                        <td>clear </td>
+                        <td>left, right, both, none </td>
+                        <td>Arrêt d'un flottant </td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">position</a></td>
+                        <td>static, relative, absolute, fixed, sticky </td>
+                        <td>Positionnement</td>
+                    </tr>
+                    <tr>
+                        <td>top</td>
+                        <td>20px</td>
+                        <td>Position par rapport au haut </td>
+                    </tr>
+                    <tr>
+                        <td>bottom</td>
+                        <td>20px</td>
+                        <td>Position par rapport au bas </td>
+                    </tr>
+                    <tr>
+                        <td>left</td>
+                        <td>20px</td>
+                        <td>Position par rapport à la gauche </td>
+                    </tr>
+                    <tr>
+                        <td>right</td>
+                        <td>20px</td>
+                        <td>Position par rapport à la droite </td>
+                    </tr>
+                </table>
+
+
+
+                <section>
+                    <h3>Pratique</h3>
+                    <p>
+                        <a href="https://www.w3schools.com/css/exercise.asp" target="_blank">https://www.w3schools.com/css/exercise.asp</a>
+                    </p>
+
+
+
+
+
+                    <h3>Liens utiles</h3>
+                    <h4>font family</h4>
+                    <p>
+                        <a href="https://www.w3schools.com/css/css_font.asp" target="_blank">https://www.w3schools.com/css/css_font.asp</a>
+                    </p>
+                    <!--<p>
+                       <a href="https://orthogaffe.wordpress.com/2010/02/27/police-web/" target="_blank">https://orthogaffe.wordpress.com/2010/02/27/police-web/</a>
+                   </p>-->
+
+
+
+                    <h4>color name</h4>
+                    <p>
+                        <a href="https://www.w3schools.com/colors/colors_names.asp" target="_blank">https://www.w3schools.com/colors/colors_names.asp</a>
+                    </p>
+                    <p>
+                        <a href="https://www.w3schools.com/html/html_colors.asp" target="_blank">https://www.w3schools.com/html/html_colors.asp</a>
+                    </p>
+                    <h4>border</h4>
+                    <p>
+                        <a href="https://www.w3schools.com/css/css_border.asp" target="_blank">https://www.w3schools.com/css/css_border.asp</a>
+                    </p>
+                    <p>
+                        <a href="https://www.w3schools.com/css/css_border_rounded.asp" target="_blank">https://www.w3schools.com/css/css_border_rounded.asp</a>
+                    </p>
+                    <p>
+                        <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_border-style " target="_blank">https://www.w3schools.com/css/tryit.asp?filename=trycss_border-style</a>
+                    </p>
+
+
+                    <h3>Pour aller + loin (niveau avancé) </h3>
+                    <h4>selector </h4>
+                    <p>
+                        <a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">https://www.w3schools.com/cssref/css_selectors.asp</a>
+                    </p>
+                    <p>
+                        <a href="https://www.w3schools.com/cssref/trysel.asp " target="_blank">https://www.w3schools.com/cssref/trysel.asp</a>
+                    </p>
+                    <h4>pseudo class:hover </h4>
+                    <p>
+                        <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_image_transparency" target="_blank">https://www.w3schools.com/css/tryit.asp?filename=trycss_image_transparency</a>
+                    </p>
+
+                    <h3>Tendance web design 2022</h3>
+                    <p>
+                        <a href="https://merehead.com/blog/top-graphic-design-trends-2022/" target="_blank">https://merehead.com/blog/top-graphic-design-trends-2022/</a>
+                    </p>
+
+                </section>
+
+
+
+
+            </article>
+
+
+
+            <footer>
+                <figure>
+                    <!-- <button onclick="window.print()">Print this page</button>-->
+                    <img onclick="window.print()" src="images/print-6568980.svg" alt="veuillez cliquer pour imprimer" width="45" height="45" class="print">
+                    <figcaption class="hidden">
+                        Image par <a href="https://pixabay.com/fr/users/inspire-studio-22128832/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6568980">J S</a> de <a href="https://pixabay.com/fr/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6568980">Pixabay</a>
+                    </figcaption>              
+                </figure>
+                <p>
+                    &copy;INani@Fobagra asbl - 2021
+                </p>
+            </footer>
+
+
+
+
+            <!-- END MAIN -->
+        </div>
+
+    </body>
+</html>

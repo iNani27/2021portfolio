@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I.NANI - Formation web</title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Megrim|Noto+Sans">
+        <link href="styles/portfolio.css" rel="stylesheet" type="text/css"/>
+        <link href="styles/two_col.css" rel="stylesheet" type="text/css"/>
+         <link href="styles/footer.css" rel="stylesheet" type="text/css"/>
+        <link href="styles/print.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <!-- MAIN (Center website) -->
+        <div class="main">
+
+            <h1>Initiation au code</h1>
+            <hr>
+
+            <h2>HTML</h2>
+
+            <div id="myBtnContainer">
+                <button class="btn" onclick="location.href = 'index.html'"> Accueil <img src="images/house-2690425_640.png" alt="Retour à l'accueil" width='25'></button>
+
+            </div>
+
+            <!-- contenu de la page -->
+
+            <header>
+
+                <!--    <nav>
+                        <ul>
+                            <li><a href="#1" class='active'>1</a></li>
+                            <li><a href="#2">2</a></li>
+                        </ul>                
+                    </nav>
+                -->
+
+            </header>
+
+            <article id='1'>
+                <h2>HTML - Balises courantes</h2>
+                <h3>Les balises de structuration du contenu :</h3>
+                <section>
+                    <h4>Titres	h1, h2, ..., h6 </h4>
+
+                    <aside id="wysiwyg">
+                        <h1>Titre de 1e niveau</h1>                                
+                        <h2>Titre de 2e niveau</h2>
+                        <h3>Titre de 3e niveau</h3>
+                        <h4>Titre de 4e niveau</h4>                                                                                
+                        <h5>Titre de 5e niveau</h5>                                                                                                                  
+                        <h6>Titre de 6e niveau</h6> 
+                    </aside>
+
+                    <div>
+                        <p><code>&lt;h1&gt;</code>Titre de 1e niveau<code>&lt;/h1&gt;</code></p>                                
+                        <p><code>&lt;h2&gt;</code>Titre de 2e niveau<code>&lt;/h2&gt;</code> </p>                                
+                        <p><code>&lt;h3&gt;</code>Titre de 3e niveau<code>&lt;/h3&gt;</code></p>                                
+                        <p><code>&lt;h4&gt;</code>Titre de 4e niveau<code>&lt;/h4&gt;</code></p>                                
+                        <p><code>&lt;h5&gt;</code>Titre de 5e niveau<code>&lt;/h5&gt;</code></p>                                
+                        <p><code>&lt;h6&gt;</code>Titre de 6e niveau<code>&lt;/h6&gt;</code></p> 
+                    </div>
+                </section>                   
+
+                <section>
+                    <h4>Paragraphe  p </h4>
+                    <aside>
+                        <p>Un simple paragraphe.</p> 
+                        <p>Un autre paragraphe.</p>
+                    </aside>
+                    <div> 
+                        <p><code>&lt;p&gt;</code>Un simple paragraphe.<code>&lt;/p&gt;</code> </p>   
+                        <p><code>&lt;p&gt;</code>Un autre paragraphe.<code>&lt;/p&gt;</code> </p>		
+                    </div>
+                </section>
+
+                <section>
+                    <h4>Retour à la ligne  br </h4>
+                    <aside>
+                        <p>Les programmes de Windows se trouvent dans : <br> C:\Program files</p>
+                    </aside>
+                    <div> 
+                        <p><code>&lt;p&gt;</code>Les programmes de Windows se trouvent dans : <code>&lt;br&gt;</code> C:\Program files<code>&lt;/p&gt;</code> </p>                                
+
+                    </div>
+                </section>
+
+                <section>
+                    <h4>Lien  a  </h4>  
+                    <aside>
+                        <!-- Hyperlien vers une page Web --> 
+                        <a href="http://www.example.com" title="Explication du lien">Texte cliquable</a> 
+                    </aside>
+
+                    <div>                               
+                        <p><span class="green">&lt;!-- Hyperlien vers une page Web --&gt;</span><br>                              
+                            <code>&lt;a</code> <code class="attr">href=</code><code class="val">"http://www.example.com"</code> <code class="attr">title=</code><code class="val">"Explication du lien"</code><code>&gt;</code>Texte cliquable<code>&lt;/a&gt;</code> </p>                                
+                    </div>
+
+
+                    <aside>
+                        <!-- Hyperlien vers une adresse email --> 
+                        <a href="mailto:nom@example.com">Envoyez-nous un email</a> 
+                    </aside>
+
+
+                    <div> 
+                        <p><span class="green">&lt;!-- Hyperlien vers une adresse email --&gt;</span><br>
+                            <code>&lt;a</code> <code class="attr">href=</code><code class="val">"mailto:nom@example.com"</code><code>&gt;</code>Envoyez-nous un email<code>&lt;/a&gt;</code> </p>      						
+                    </div>
+                </section>	
+
+                <section>
+                    <h4>Ancre nommée  a </h4>
+                    <aside>
+                        <a id="identifiant_unique">Texte ancré</a> 
+                        <a href="#identifiant_unique" title="Lien interne">Texte cliquable vers l’ancre</a> 
+                    </aside>
+                    <div> 
+                        <p><code>&lt;a</code> <code class="attr">id=</code><code class="val">"identifiant_unique"</code><code>&gt;</code>Texte ancré<code>&lt;/a&gt;</code> </p> 
+                        <p><code>&lt;a</code> <code class="attr">href=</code><code class="val">"#identifiant_unique"</code> <code class="attr">title=</code><code class="val">"Lien interne"</code>>Texte cliquable vers l’ancre<code>&lt;/a&gt;</code> </p> 
+                    </div>
+                </section>
+
+                <section>
+                    <h4>Image img </h4>
+                    <aside>
+                        <img src="images/photo.jpg" alt="Texte de remplacement" title="paysage" width="100" height="80"> 
+                    </aside>
+                    <div> 
+                        <p><code>&lt;img</code> <code class="attr">src=</code><code class="val">"images/photo.jpg"</code> <code class="attr">alt=</code><code class="val">"Texte pour les non-voyants"</code>  <code class="attr">width=</code><code class="val">"100"</code> <code class="attr">height=</code><code class="val">"80"</code><code>&gt;</code> </p>                                
+                    </div>
+                </section>
+
+                <section>
+                    <h4>Listes ordonnées  </h4>  
+                    <aside>
+                        <ol> 
+                            <li>1er élément de la liste</li> 
+                            <li>2e élément de la liste</li> 
+                        </ol>
+                    </aside>
+                    <div> 
+                        <pre>     
+<code>&lt;ol&gt;</code> 
+  <code>&lt;li&gt;</code>1er élément de la liste<code>&lt;/li&gt;</code> 
+  <code>&lt;li&gt;</code>2e élément de la liste<code>&lt;/li&gt;</code> 
+<code>&lt;/ol&gt;</code> 
+                        </pre>
+                    </div>
+                </section>
+
+                <section>
+                    <h4>Listes  non-ordonnées (puces)   </h4>   
+                    <aside>
+                        <ul> 
+                            <li>1er élément de la liste</li> 
+                            <li>2e élément de la liste</li> 
+                        </ul> 
+                    </aside>
+                    <div> 
+                        <pre>
+<code>&lt;ul&gt;</code> 
+  <code>&lt;li&gt;</code>1er élément de la liste<code>&lt;/li&gt;</code> 
+  <code>&lt;li&gt;</code>2e élément de la liste<code>&lt;/li&gt;</code> 
+<code>&lt;/ul&gt;</code> 
+                        </pre>
+                    </div>
+                </section>
+
+                <section>
+                    <h4>Tableau table </h4>
+                    <aside>
+                        <table>
+                            <tr>
+                                <th>Titre de la colonne 1</th>
+                                <th>Titre de la colonne 2</th>
+                            </tr>
+                            <tr>
+                                <td>Élément 1 ligne 1</td>
+                                <td>Élément 2 ligne 1</td>                                                                                     
+                            </tr>                                                                          
+                        </table>
+                    </aside>
+                    <div>
+                        <pre>
+<code>&lt;table&gt;</code>
+  <code>&lt;tr&gt;</code>
+    <code>&lt;th&gt;</code>Titre de la colonne 1<code>&lt;/th&gt;</code>
+    <code>&lt;th&gt;</code>Titre de la colonne 2<code>&lt;/th&gt;</code>
+  <code>&lt;/tr&gt;</code>
+  <code>&lt;tr&gt;</code>
+    <code>&lt;td&gt;</code>Élément 1 ligne 1<code>&lt;/td&gt;</code>
+    <code>&lt;td&gt;</code>Élément 2 ligne 1<code>&lt;/td&gt;</code>                                                                                     
+  <code>&lt;/tr&gt;</code>                                                                          
+<code>&lt;/table&gt;</code>
+                        </pre>
+                    </div>
+                </section>
+
+                <section>
+                    <h4>Commentaires   </h4>                                                                  
+                    <div class="green">&lt;! Commentaire HTML --&gt;</div>
+                    <p class="hidden">
+                        La balise de commentaire est utilisée pour insérer des commentaires dans le code source. 
+                        Les commentaires ne sont pas affichés dans les navigateurs.
+                        Vous pouvez utiliser des commentaires pour expliquer votre code, ce qui peut vous aider lorsque vous modifiez le code source à une date ultérieure. 
+                        Ceci est particulièrement utile si vous avez beaucoup de code. 
+                    </p>
+                </section>
+            </article>
+
+
+
+
+
+            <article id='2'>
+                <h2>HTML - Les balises de structuration de la page :</h2>
+                <h3>Balises obligatoires</h3>
+                <section>
+                    <h4>Les balises de fichier HTML</h4>
+
+                    <aside>
+                        <pre>
+<code>&lt;!DOCTYPE html&gt;</code>
+
+    <code>&lt;html&gt;</code>
+
+        <code>&lt;head&gt;</code><code>&lt;/head&gt;</code>
+
+        <code>&lt;body&gt;</code><code>&lt;/body&gt;</code>
+
+    <code>&lt;/html&gt;</code> </pre>
+                    </aside>
+
+                    <div>
+                        <code>&lt;!DOCTYPE html&gt;</code>
+                    </div>
+                    <div>
+                        <code>&lt;html&gt;</code><code>&lt;/html&gt;</code>
+                    </div>
+                    <div>
+                        <code>&lt;head&gt;</code><code>&lt;/head&gt;</code>
+                    </div>
+                    <div>
+                        <code>&lt;body&gt;</code><code>&lt;/body&gt;</code>
+                    </div>
+                </section>                   
+
+                <section class='printSautPage'>
+                    <h4>Les balises de métadonnées</h4>
+                    <aside>
+                        <pre>
+<code>&lt;head&gt;</code>
+    <code>&lt;title&gt;&lt;/title&gt;</code>
+    <code>&lt;meta charset="UTF-8"&gt;</code>
+<code>&lt;/head&gt;</code>
+                        </pre>
+                    </aside>
+                    <div> 
+                        <code>&lt;title&gt;&lt;/title&gt;</code>
+                    </div>
+                    <div>
+                        <code>&lt;meta</code> <code class="attr">charset=</code> <code class="val">"UTF-8"</code>&gt;
+                    </div>
+                </section>
+            </article>
+
+            <article class='printSautPage'>
+                <h2>Les balises HTML5</h2>
+                <h3>Les balises sémantiques</h3>
+                <section>
+                    <aside>
+                        <pre>
+<code>&lt;body&gt;</code> 
+
+     <code>&lt;header&gt;</code>Haut de la page<code>&lt;/header&gt;</code> 
+
+     <code>&lt;nav&gt;</code>Pour les menus<code>&lt;/nav&gt;</code> 
+
+     <code>&lt;section&gt;</code> 
+
+              <code>&lt;article&gt;</code>Pour du texte<code>&lt;/article&gt;</code> 
+
+              <code>&lt;aside&gt;</code>À côté de l'article<code>&lt;/aside&gt;</code> 
+
+     <code>&lt;/section&gt;</code> 
+
+     <code>&lt;footer&gt;</code>Pied de page <code>&lt;/footer&gt;</code> 
+
+<code>&lt;/body&gt;</code>                         
+                        </pre>
+                    </aside>
+                    <div> 
+                        <code>&lt;section&gt;</code><code>&lt;/section&gt;</code>
+                    </div>
+                    <div> 
+                        <code>&lt;article&gt;</code><code>&lt;/article&gt;</code>
+                    </div>
+                    <div> 
+                        <code>&lt;footer&gt;</code><code>&lt;/footer&gt;</code>
+                    </div>
+                    <div> 
+                        <code>&lt;nav&gt;</code>
+                    </div>
+                    <div> 
+                        <code>&lt;aside&gt;</code>
+                    </div>
+                    <div> 
+                        <code>&lt;header&gt;</code>
+                    </div>
+                </section>
+            </article>
+
+            <article class='printSautPage'>
+                <h2>Les balises universelles</h2>
+                <section>
+
+                    <aside>
+                        <p>
+                            Élément <strong>block</strong>. Les éléments <strong>block</strong> vont se disposer les uns <b>en dessous</b> des autres, car ils prennent toute la largeur de la page.
+                        </p>
+                        <p>
+                            Élément <i>inline</i>. Alors que les éléments <i>inline</i> vont se placer les uns <i>à côté</i> des autres.
+                        </p>
+                    </aside>
+                    <div> 
+                        <code>&lt;div&gt;</code><code>&lt;/div&gt;</code>
+                    </div>
+                    <div>
+                        <code>&lt;span&gt;</code><code>&lt;/span&gt;</code>
+                    </div>
+                </section>
+            </article>
+
+
+
+
+            <footer>
+                <figure>
+                    <!-- <button onclick="window.print()">Print this page</button>-->
+                    <img onclick="window.print()" src="images/print-6568980.svg" alt="veuillez cliquer pour imprimer" width="45" height="45" class="print">
+                    <figcaption class="hidden">
+                        Image par <a href="https://pixabay.com/fr/users/inspire-studio-22128832/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6568980">J S</a> de <a href="https://pixabay.com/fr/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6568980">Pixabay</a>
+                    </figcaption>              
+                </figure>
+                <p>
+                    &copy;INani@Fobagra asbl - 2021
+                </p>
+            </footer>
+
+
+
+
+            <!-- END MAIN -->
+        </div>
+
+    </body>
+</html>

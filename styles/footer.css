@@ -1,0 +1,17 @@
+/*
+
+/* 
+    Created on : 19-nov.-2021, 16:15:59
+    Author     : métier
+*/
+footer{
+    font-family: papyrus, Fantasy;
+    font-size: smaller;
+    /*color: wheat;*/
+    text-align: center;
+    margin-top: 172px;
+}
+footer figure figcaption{
+    display : none;
+    color:white;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I.NANI - Formatrice IT</title>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Megrim|Noto+Sans">
+        <link href="styles/portfolio.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <!-- MAIN (Center website) -->
+        <div class="main">
+
+            <h1>Isabelle NANI - Formatrice Informatique</h1>
+            <hr>
+
+            <h2>PORTFOLIO</h2>
+
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> Tout</button>
+                <button class="btn" onclick="filterSelection('bases')"> Bases</button>
+                <button class="btn" onclick="filterSelection('word')"> Word</button>
+                <button class="btn" onclick="filterSelection('autre')"> Autre</button>
+            </div>
+
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+                <div class="column bases">
+                    <div class="content">
+                        <a href="souris.html">
+                            <img src="images/souris.jpg" alt="Une souris d'ordinateur">
+                        </a>
+                        <h4>Souris</h4>
+                        <p>Comment manipuler une souris d'ordinateur? </p>
+                    </div>
+                </div>
+                <div class="column bases">
+                    <div class="content">
+                        <a href="clavier.html">
+                            <img src="images/keyboard.jpg" alt="Un clavier d'ordinateur">
+                        </a>
+                        <h4>Clavier</h4>
+                        <p>Comment manipuler un clavier d'ordinateur? </p>
+                    </div>
+                </div>
+                <div class="column bases">
+                    <div class="content">
+                        <a href="windows.html">
+                            <img src="images/windows.jpg" alt="Un écran d'ordinateur">
+                        </a>
+                        <h4>Windows</h4>
+                        <p>Comment manipuler les fenêtres de l'ordinateur? </p>
+                    </div>
+                </div>
+
+                <div class="column word">
+                    <div class="content">
+                        <a href="word1.html">
+                            <img src="images/word1.png" alt="Vidéo 1">
+                        </a>
+                        <h4>Word gratuit</h4>
+                        <p>Comment créer un compte Microsoft avec Gmail? </p>
+                    </div>
+                </div>
+                <div class="column word">
+                    <div class="content">
+                        <a href="word2.html">
+                            <img src="images/word2.png" alt="Vidéo 2">
+                        </a>
+                        <h4>Word en ligne</h4>
+                        <p>Comment ouvrir un document dans Word en ligne ?</p>
+                    </div>
+                </div>
+                <div class="column word">
+                    <div class="content">
+                        <a href="word3.html">
+                            <img src="images/word3.png" alt="Vidéo 3">
+                        </a>
+                        <h4>Word mise en forme</h4>
+                        <p>Comment mettre un texte en forme avec Word ? </p>
+                    </div>
+                </div>
+
+                <div class="column autre">
+                    <div class="content">
+                        <a href="droits.html">
+                            <img src="images/autre1.png" alt="Droit d'auteur & copyrighhts">
+                        </a>
+                        <h4>Images & droit d'auteur</h4>
+                        <p>Comment trouver des images libre de droit? </p>
+                    </div>
+                </div>
+                <div class="column autre">
+                    <div class="content">
+                        <a href="pixa.html">
+                            <img src="images/laptop-2589693_640.jpg" alt="Un bureau avec un ordinateur, sous le soleil d'un bel après-midi." title="Image de StockSnapsur sur Pixabay">
+                        </a>
+                        <h4>Pixabay</h4>
+                        <p>Comment télécharger une image et vérifier les droits ?</p>
+                    </div>
+                </div>
+                <div class="column autre">
+                    <div class="content">
+                        <a href="picsu.html">
+                            <img src="images/picsum.png" title="Photo n°163 de Linh Nguyen sur Picsum" alt="photo terrasse ensoillée pleine de couleurs.">
+                        </a>
+                        <h4>Lorem picsum</h4>
+                        <p>Comment faire un lien vers une image en ligne ?</p>
+                    </div>
+                </div>
+                
+                
+                <div class="column autre">
+                    <div class="content">
+                        <a href="balises.html">
+                            <img src="images/code-1076533_640.jpg" alt="code html">
+                        </a>
+                        <h4>Les balises HTML</h4>
+                        <p>HyperText Markup Language : Le langage de balisage</p>
+                    </div>
+                </div>
+                <div class="column autre">
+                    <div class="content">
+                        <a href="styles.html">
+                            <img src="images/programmer-1653351_640.png" alt="code css">
+                        </a>
+                        <h4>Les styles CSS</h4>
+                        <p>Les selecteurs, les propriétés et leurs valeurs</p>
+                    </div>
+                </div>
+                <div class="column autre">
+                    <div class="content">
+                        <a href="cv/Isabelle_NANI_cv.html">
+                            <img src="images/programmer-4431280_640.png" alt="">
+                        </a>
+                        <h4>À propos</h4>
+                        <p>Curieux d'en apprendre plus sur la conceptrice de ce site web? </p>
+                    </div>
+                </div>
+                
+      
+                <!-- END GRID -->
+            </div>
+
+            <!-- END MAIN -->
+        </div>
+
+        <script>
+            filterSelection("all")
+            function filterSelection(c) {
+                var x, i;
+                x = document.getElementsByClassName("column");
+                if (c == "all")
+                    c = "";
+                for (i = 0; i < x.length; i++) {
+                    w3RemoveClass(x[i], "show");
+                    if (x[i].className.indexOf(c) > -1)
+                        w3AddClass(x[i], "show");
+                }
+            }
+
+            function w3AddClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    if (arr1.indexOf(arr2[i]) == -1) {
+                        element.className += " " + arr2[i];
+                    }
+                }
+            }
+
+            function w3RemoveClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    while (arr1.indexOf(arr2[i]) > -1) {
+                        arr1.splice(arr1.indexOf(arr2[i]), 1);
+                    }
+                }
+                element.className = arr1.join(" ");
+            }
+
+
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("myBtnContainer");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function () {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+            }
+        </script>
+
+    </body>
+</html>

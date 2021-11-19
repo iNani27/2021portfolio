@@ -1,0 +1,79 @@
+/*
+
+*/
+/* 
+    Created on : 19-nov.-2021, 16:24:33
+    Author     : métier
+*/
+
+section div{
+    width: 47%; 
+    border: 1px outset navy; 
+    padding: 20px 17px 30px 20px; 
+    font-family: monospace;
+    font-size: 14px;
+    background-color: #14141F; 
+    color : AliceBlue;
+    /* clear : both;*/
+}
+
+section aside{
+    width: 42%; 
+    border: 1px outset orange; 
+    padding: 20px 17px 30px 20px; 
+    float: right;
+}
+
+section aside#wysiwyg{
+    padding: 0px 17px 0px 20px; 
+
+}
+
+section aside#wysiwyg > h1{
+    font-size: 27px;
+}
+
+section aside#wysiwyg > h1, h2, h3, h4, h5, h6{
+    margin : 20px auto;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+}
+th, td{
+    padding : 5px;
+}
+
+code{
+    color : DodgerBlue; 		
+    font-weight: 700;
+}
+code.attr{
+    color: #FF69B4; 
+    font-weight: 500;
+}
+code.val{
+    color : #ffa;                              
+    font-weight: 200;
+}
+
+
+.green{
+    color : lightgreen;
+}
+
+.hidden{
+    display: none;
+}
+
+/* Effet CSS au survol */
+section div:hover {
+    background-color: AliceBlue;
+    color :#14141F; 
+}
+section div:hover code.val{
+    color : grey;    
+}
+section div:hover .green{
+    color : green;
+}

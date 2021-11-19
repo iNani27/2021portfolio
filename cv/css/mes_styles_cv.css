@@ -1,0 +1,63 @@
+/* 
+    Created on : 28-mai-2019, 16:55:00
+    Author     : Isabelle
+*/
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size : 1.25em;
+    width: 60%;
+    margin: auto auto;
+    height: 100%;
+    background-image: url("../img/news-1389974-crp.png"); /*Image de Luis Estrada via Pixabay*/ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div#vignette {
+    width: 25%;
+    display: inline-block;
+    padding-right: 3em;
+    vertical-align: top;
+}
+div#contenu {
+    width: 65%;
+    display: inline-block;
+    border-left: .5em dotted grey;
+}
+p {
+    color : navy; 
+    font-weight : bolder;
+    font-size : .7em; 
+    font-style: normal;
+}
+h1 {
+    font-size : 1.5em; 
+}
+h2{
+    font-size: 1.5em; 
+    border-right : teal solid 2px ;
+    border-bottom : teal solid 2px ;
+    border-radius : 1em;
+    color : navy; 
+    text-align: right;
+    padding-right: 1em;
+}
+img {
+    border-style : inset; 
+    border-color : Brown;
+    border-width : 0.375em; 	
+    border-radius: 1.5625em; 
+    box-shadow: 0.3125em 0.375em  0.4375em -0.375em rgba(48,52,66,1);
+}
+ul {
+    list-style-type:none;
+}
+
+.my_font {
+    /*font-family: 'Amita';*/
+    font-family: 'chantelli_antiquaregular';
+    font-style: oblique;
+    /*font-stretch: expanded;*/
+    text-align: right;
+}
+
