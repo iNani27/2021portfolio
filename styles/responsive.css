@@ -1,0 +1,61 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 20-nov.-2021, 2:12:27
+    Author     : Isabelle
+*/
+
+/* Styles responsive */
+@media only screen and (max-width: 800px) {
+    .column {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+    h1{
+        font-size: 1.7em;
+    }
+       section, section aside {
+        width: 100%;
+    }
+    section div{
+        width: 100%;
+        clear:both;
+        margin-bottom : 2em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    h2{
+        font-size: 0.9em;
+    }
+    iframe{
+        width: 100%;
+    }
+    aside#wysiwyg > h1{
+        font-size: 27px;
+        color:black;
+        font-family: "Noto Sans", sans-serif;
+    }
+    section, section aside {
+        width: 100%;
+    }
+    section div{
+        width: 100%;
+        clear:both;
+        margin-bottom : 2em;
+    }
+    aside#wysiwyg > h1{
+        font-size: 70%;
+    }
+    aside#wysiwyg > h2{
+        font-size: 120%;
+    }
+}

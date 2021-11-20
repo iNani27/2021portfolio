@@ -15,6 +15,7 @@ body {
     background-color: PapayaWhip;
     padding: 20px;
     font-family: "Noto Sans", sans-serif;
+    font-size: 1em;
 }
 
 /* Center website */
@@ -25,7 +26,7 @@ body {
 
 h1 {
     font-size: 50px;
-    word-break: break-all;
+    word-break: normal;
     font-family: Megrim;
     color : tan;
 }
@@ -54,7 +55,7 @@ h2 {
     display: none; /* Hide all elements by default */
 }
 
-/* Clear floats after rows */ 
+/* Clear floats after rows */
 .row:after {
     content: "";
     display: table;
@@ -65,6 +66,17 @@ h2 {
 .content {
     background-color: white;
     padding: 10px;
+}
+
+aside#wysiwyg > h1{
+    font-size: 27px;
+    color:black;
+    font-family: "Noto Sans", sans-serif;
+}
+aside#wysiwyg > h2{
+    font-size: 24px;
+    color:black;
+    font-family: "Noto Sans", sans-serif;
 }
 
 /* The "show" class is added to the filtered elements */
@@ -90,25 +102,12 @@ h2 {
     color: white;
 }
 
-/* Style des images */ 
+/* Style des images */
 .main .row .content img {
     width : 100%;
     opacity: 1;
-} 
+}
 .main .row .content img:hover {
     opacity: .5;
 }
 
-/* Styles fluides diiférents taille d'écran */
-@media only screen and (max-width: 700px) {
-    .column {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .column {
-        width: 100%;
-    }
-}
