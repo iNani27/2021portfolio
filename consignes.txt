@@ -1,19 +1,28 @@
 1- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_portfolio_gallery_filter
+
 2- add shorttitle (Browser TAB : NOM FCT and UTF8
 <meta charset="UTF-8"> 
+
 3- update longTitle h1
+
 4-find an replace 
+
 nature => bases
 cars => word
 people => autre
+
 5- col bases add contents
 souris
 clavier
 windows
+
 6- Dossier images : souris clavier windows sur pixabay (!Libre de droit)
 600*400
+
+Exemples:
 souris.jpg
 Image by <a href="https://pixabay.com/users/696875-696875/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=980029">Dry Heart Studio</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=980029">Pixabay</a>
+
 keyboard.png
 Image by <a href="https://pixabay.com/users/nanto-721344/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=790203">Νικόλαος Αντωνόπουλος</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=790203">Pixabay</a>
 
@@ -28,7 +37,10 @@ Image by <a href="https://pixabay.com/users/nanto-721344/?utm_source=link-attrib
                 width : 100%;
             } 
 
+
+
 8- Word en ligne
+Exemples : 
 Vidéos créées par Monsieur Jacques DEVOS, formateur à FOBAGRA asbl
 Obtenir Word en ligne 
 Créer un compte Microsoft avec Gmail
@@ -48,6 +60,7 @@ https://www.youtube.com/channel/UC36Ouyp9yTpQVyC0N2BJwTw/about
 
 
 9- autre
+Exemple d'images: 
 laptop-2589693_640.jpg
 Image by <a href="https://pixabay.com/users/stocksnap-894430/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2589693">StockSnap</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2589693">Pixabay</a>
 
@@ -57,12 +70,15 @@ Image by <a href="https://pixabay.com/users/stocksnap-894430/?utm_source=link-at
 
 
 10- HTML pages
-lien sur chaque img pour aller new  page même design avec faux texte ou video ou pdf à télégarger...
+lien sur chaque img pour aller new  page même design avec - par exelmple :
+faux texte ou video ou pdf à télégarger...
 
 11 - CSS perso
 font-family : 
 https://www.w3schools.com/howto/howto_google_fonts.asp
-https://www.w3schools.com/Css/css_font_pairings.asp
+Avancé : https://www.w3schools.com/Css/css_font_pairings.asp
+
+Propriété:
 background color
 border-radius
 btn bg color et hover
