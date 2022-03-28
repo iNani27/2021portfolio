@@ -1,0 +1,81 @@
+informer les utilisateurs et utilisatrices sur la manière dont sont utilisées leurs données.
+
+fenêtres popup qui sollicitent le consentement.
+notifications qui vous demandent d’accepter des cookies à chaque fois que vous arrivez sur un site web.
+
+
+Historiq / "Rien ne changera tant que personne n’aura été envoyé en prison."[lien 2]
+?Date? ’Union européenne a voté pour l’application du RGPD
+
+objectif était de protéger la vie privée des citoyens contre les abus de l’industrie de la collecte de données en ligne.
+
+LOI :
+l'utilisateur doit savoir à quoi ses données personnelles vont servir
+le consentement de l'utilisateur doit être obtenu.
+les données collectées doivent être stockées de façon sécurisée.
+intérêt legitime ???
+
+
+! le secteur de la publicité ciblée !
+
+
+JUgement X? : Google et tous les autres acteurs du secteur de la publicité ciblée en ligne sont sommés de détruire toutes les données qu’ils ont collectées illégalement.
+
+!! Le secteur de la publicité ciblée, en particulier Google et Amazon, amasse beaucoup trop d’argent pour en avoir quoi que ce soit à faire des amendes de pacotille que les régulateurs leur distribuent pour leurs activités criminelles. Pour eux, ce sont juste des frais de fonctionnement. 
+
+
+notre historique de navigation puisse être utilisé contre nous-mêmes, ou employé pour nous manipuler, lors de l’ouverture d’un nouvel onglet.
+OU
+le comportement de chacune et chacun est répercuté de site en site, au moyen d’une étiquette
+= "Les utilisatrices et utilisateurs commencent chaque interaction avec une confession : voici ce que j’ai fait cette semaine, tenez-en compte."
+
+
+Vocabulaire:
+-----------------
+Le fingerprinting, ou « prise d’empreinte » est une technique probabiliste visant à identifier un utilisateur de façon unique sur un site web ou une application mobile en utilisant les caractéristiques techniques de son navigateur.[lien 4]
+Cookies : [lien 5]
+La loi Informatique et libertés concentre les droits des particuliers en quatre points :
+
+le droit d’information,
+le droit d’opposition,
+le droit d’accès,
+le droit de rectification. []
+RGPD : Règlement Général sur lien 6la Protection des Données
+GAFAM : 
+	ex: Google dont le modèle économique est ... la vente de publicité.
+Hebergeur
+Adresse IP
+fenêtres popup 
+cookies de pistage = cookies tiers  = industrie de surveillance publicitaire sur le Web
+Privacy Sandbox = le « bac à sable de la vie privée » 
+traqueurs : suivre les individus lors de leur navigation sur le Web 
+------------------------------
+
+
+pourquoi il est utile que votre logiciel collecte des données.
+
+vérifier que toutes les finalités et données collectées sont légitimes. Par exemple, si l'adresse e-mail est utilisée uniquement pour connecter les utilisateurs, collecter un nom d'utilisateur à la place doit ête envisagé.
+
+Permettre aux utilisateurs de mettre à jour, d'exporter et de supprimer leurs données personnelles.
+
+serveur Web génère des journaux sur les utilisateurs, y compris leur adresse IP.
+
+
+++++
+Cookies tiers => Apprentissage Fédéré de Cohorte (AFC, ou FLoC "Federated Learning of Cohorts" en anglais)
+Google veut être en première ligne pour remplacer les cookies tiers par un ensemble de technologies permettant de diffuser des annonces ciblées sur Internet.
+L’AFC est conçu comme une nouvelle manière pour votre navigateur d’établir votre profil, ce que les pisteurs tiers faisaient jusqu’à maintenant, c’est-à-dire en retravaillant votre historique de navigation récent pour le traduire en une catégorie comportementale qui sera ensuite partagée avec les sites web et les annonceurs.
+L’AFC est conçu pour aider les annonceurs à améliorer le ciblage comportemental sans l’aide des cookies tiers. 
+=> votre identifiant AFC sera comme un court résumé de votre activité récente sur le Web.
+
+
+
+Sources:
+1- https://gdpr-txt.org/
+2- https://framablog.org/2022/03/02/publicite-ciblee-en-ligne-rien-ne-changera-tant-que/
+3- https://framablog.org/2021/03/22/google-chante-le-requiem-pour-les-cookies-mais-la-grand-choeur-du-pistage-resonnera-encore/
+4- https://www.cnil.fr/fr/definition/fingerprinting
+5- https://www.cnil.fr/fr/definition/cookie
+6- https://fr.wikipedia.org/wiki/Loi_informatique_et_libert%C3%A9s
+
+navigateurs comme Safari et Tor 
